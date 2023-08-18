@@ -9,6 +9,8 @@ A 3D snake game using Three.js javascript library. It's a single level game. The
 5. After eating each fruit, the speed of the snake will increase.
 6. After game over, there is a option to play the game again.
 
+After eating 200 fruits, the game will complete.
+
 # Run and Build
 
 1. To play the game one needs to download or clone the project.
