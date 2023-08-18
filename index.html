@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>3D Snake Game</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/Three.js"></script>
+    <script src="js/Detector.js"></script>
+    <script src="js/JSInheritance.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div id="outer">
+
+        <div id="intro" class="box hidden">
+            <a href="javascript:;">PLAY..</a>
+        </div>
+
+        <div id="info" class="hidden" style="color: rgb(23, 90, 33); font-weight: 900;">
+            Score: <span class="score">0</span>
+        </div>
+
+        <div id="gameover" class="box hidden">
+            GAME OVER..<br /><br />
+            Final Score:<strong><span class="score"></span></strong><br /><br />
+            <a href="javascript:;">PLAY AGAIN!!</a>
+        </div>
+
+        <div id="container"></div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#outer {
+    position: relative;
+}
+
+canvas {
+    background: #78df97;
+}
+
+#info {
+    position: absolute;
+    color: #7adaa0;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.box {
+    width: 352px;
+    position: absolute;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: -200px;
+    color: #FFF;
+    top: 100px;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 50px;
+    border: 1px solid #FFF;
+    text-align: center;
+}
+
+.box a:link,
+.box a:visited,
+.box a:active {
+    color: #FFF;
+}
+
+.box a:hover {
+    color: #0663fd;
+}
+
+.hidden {
+    display: none;
+}
