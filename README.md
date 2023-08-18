@@ -1,6 +1,6 @@
 # 3D-Snake-Game
 
-A 3D snake game using Three.js javascript library. The game contains typical snake game features such as-
+A 3D snake game using Three.js javascript library. It's a single level game. The game contains typical snake game features such as-
 
 1. Eat fruits and score will increase.
 2. Fruits will generate randomly.
